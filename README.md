@@ -50,6 +50,9 @@ Intel(R) UHD Graphics 630
 - Cài đặt PyTorch theo hướng dẫn trên trang chủ của PyTorch.
     + PyTorch: [pytorch.org](https://pytorch.org/get-started/locally/)
     + Chọn phiên bản PyTorch phù hợp với CUDA Toolkit đã cài đặt.
+  ```bash
+  pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+  ```
 
 # 7. Kiểm tra cài đặt
 - Mở Python và chạy các lệnh sau:
